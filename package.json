@@ -13,7 +13,11 @@
     "author": {
         "name": "Pedro Dalben"
     },
-    "license":"GPLv3",
+    "license":"MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pedro-Kazap/vue-componente-file-snippets"
+    },
     "contributes": {
         "snippets": [
             {
