@@ -1,0 +1,29 @@
+{
+    "name": "vue-componente-file",
+    "displayName": "vue componente file",
+    "description": "cria snippet de codigo para criacao de componente vue em javascript",
+    "version": "0.0.2",
+    "publisher": "PedroDalben",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "author": {
+        "name": "Pedro Dalben"
+    },
+    "license":"GPLv3",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-js-snippets.json"
+            },
+            {
+                "language": "coffeescript",
+                "path": "./snippets/vue-coffee-snippets.json"
+            }
+        ]
+    }
+}
