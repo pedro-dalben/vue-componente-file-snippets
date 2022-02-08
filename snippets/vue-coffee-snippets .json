@@ -3,8 +3,8 @@
     "prefix": "templateCoffee",
     "scope": "coffeescript",
     "body": ["Vue.component '${1:nome-componente}',",
-        " template: /*template*/ `",
-        "   <div>${2:codigo}</div>`"
+        "\ttemplate: /*template*/ `",
+        "\t\t<div>${2:codigo}</div>`"
     ],
     "description": "Cria template de componente base para vue em arquivo.js.coffe"
   },
@@ -14,9 +14,9 @@
     "scope": "coffeescript",
     "body": [
       "data: ->",
-      " {",
-      "   ${1:varName}: ${2:varValue}",
-      " }"
+      "\t{",
+      "\t\t${1:varName}: ${2:varValue}",
+      "\t}"
     ]
   }
 }

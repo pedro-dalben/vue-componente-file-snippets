@@ -3,20 +3,20 @@
     "prefix": "templateJs",
     "scope": "javascript",
     "body": ["Vue.component('${1:nome-componente}', {",
-        " template: /*template*/ `",
-        "   <div>${2:codigo}</div>`",
+        "\ttemplate: /*template*/ `",
+        "\t\t<div>${2:codigo}</div>`",
       "})"
     ],
     "description": "Cria template de componente base para vue em arquivo.js"
   },
 
   "data.js": {
-    "prefix": "data.js",
+    "prefix": "dataJs",
     "scope": "javascript",
     "body": [
       "data: () => ({",
-      " ${1:varName}: ${2:varValue}",
-      "}),"
+      "\t${1:varName}: ${2:varValue}",
+      "})"
     ]
   }
 }
