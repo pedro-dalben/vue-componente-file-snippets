@@ -2,7 +2,7 @@
     "name": "vue-componente-file",
     "displayName": "vue componente file",
     "description": "cria snippet de codigo para criacao de componente vue em javascript",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "PedroDalben",
     "engines": {
         "vscode": "^1.64.0"

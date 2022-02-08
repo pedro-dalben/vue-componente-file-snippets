@@ -4,7 +4,8 @@
     "scope": "javascript",
     "body": ["Vue.component('${1:nome-componente}', {",
         "\ttemplate: /*template*/ `",
-        "\t\t<div>${2:codigo}</div>`",
+        "\t\t<div>${2:codigo}</div>",
+        "\t`",
       "})"
     ],
     "description": "Cria template de componente base para vue em arquivo.js"
