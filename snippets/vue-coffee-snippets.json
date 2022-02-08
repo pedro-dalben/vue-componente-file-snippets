@@ -2,9 +2,9 @@
   "templateCoffee": {
     "prefix": "templateCoffee",
     "body": ["Vue.component '${1:nome-componente}',",
-        "\ttemplate: /*template*/ `",
+        "\ttemplate: \"\"\"",
         "\t\t<div>${2:codigo}</div>",
-        "`"
+        "\t\"\"\""
     ],
     "description": "Cria template de componente base para vue em arquivo.js.coffe"
   },
